@@ -9,7 +9,7 @@
     font-style: italic;
     position: relative;
     border-radius: 100%;
-    background: #009999;
+    background: #568C92;
     border: 1px solid #F7F7F7;
     width: 80px;
     height: 80px;
@@ -79,5 +79,23 @@ h2 {
 
 .about {
   font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+}
 
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: left;
+  }
+}
+
+.modal {
+  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+}
+
+h2 span {
+  color: #568C92;
+  font-family: 'open_sansregular', sans-serif;
+}
+
+::selection {
+  background-color: #9CC9CE
 }
